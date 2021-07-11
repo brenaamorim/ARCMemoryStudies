@@ -1,6 +1,6 @@
 //: [Previous](@previous)
 
-import Cocoa
+import Foundation
 
 // MARK: - COMO A MEMÓRIA ARC FUNCIONA
 

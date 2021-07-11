@@ -1,7 +1,8 @@
 //: [Previous](@previous)
 
-// MARK: - RESOLVENDO FORTES CICLOS DE REFERÊNCIA ENTRE INSTÂNCIAS DE CLASSE
+import Foundation
 
+// MARK: - RESOLVENDO FORTES CICLOS DE REFERÊNCIA ENTRE INSTÂNCIAS DE CLASSE
 // MARK: - MODO 1: Referências fracas
 
 class Person {
