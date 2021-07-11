@@ -41,3 +41,4 @@ unit4A = nil
 // 6. Ao atribuir nil a john e unit4A, apenas as duas primeiras referencias são apagadas
 // 7. Lembrando que a ARC só desaloca essas instâncias quando não sobrar nenhuma referência!
 
+//: [Next](@next)

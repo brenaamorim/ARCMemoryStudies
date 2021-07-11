@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 import Cocoa
 
 // MARK: - COMO A MEMÓRIA ARC FUNCIONA
@@ -33,3 +35,5 @@ reference2 = nil
 // 4. A mémoria ARC só desalocará essa instância de Person quando a última referência a ela for quebrada
 reference3 = nil
 // Aqui a mensagem "John Appleseed is being deinitialized" é apresentada :D
+
+//: [Next](@next)

@@ -3,5 +3,6 @@
     <pages>
         <page name='Strong Reference Cycles'/>
         <page name='How ARC Memory Works'/>
+        <page name='Weak References'/>
     </pages>
 </playground>
