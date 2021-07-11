@@ -31,6 +31,9 @@ unit4A = Apartment(unit: "4A")
 
 john!.apartment = unit4A
 unit4A!.tenant = john
+// As referências fortes criadas nesse momento são:
+// 1. A variável john e a instância Person
+// 2. O atributo apartament da instancia Person(john) e a instância Apartment(unit4A)
 
 //4. Agora, note que a instância Apartment possui uma referencia fraca à instância Person e não mais uma referência forte como antes (var tenant). Isso significa que quando você quebra a referência forte mantida pela variável john definindo-a como nil, não há mais referências fortes para a instância Person.
 john = nil
